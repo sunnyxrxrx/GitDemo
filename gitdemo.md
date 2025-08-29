@@ -6,12 +6,17 @@ git init
 ![alt text](image.png)
 ``` 
 git clone https://github.com/geekhall-laoyang/remote-repo.git
-
+```
+查看仓库状态
+```
+git status
 ```
 ![alt text](image-1.png)
 ## git 工作区域和文件状态
-working diretory
+working diretory 工作区
 
-staging area/index
+staging area/index 暂存区
 
 local repository 本地仓库
+
+![alt text](image-2.png)
