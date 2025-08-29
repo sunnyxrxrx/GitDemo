@@ -21,6 +21,7 @@ local repository 本地仓库
 
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+### 命令行
 开始跟踪/取消跟踪一个文件到暂存区
 ```
 git add 文件名
@@ -32,6 +33,17 @@ git restore --staged 文件名
 ``` 
 git commit "提交信息"
 ```
+查看更新日志
+```
+git log
+```
+按q退出
+
+回退版本
+```
+git reset
+```
+![alt text](image-6.png)
 ### 在vscode界面的情况
 输入消息点击提交
 - 如果暂存区有文件，只会把暂存区的文件提交
